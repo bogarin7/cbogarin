@@ -1,0 +1,76 @@
+body {
+    background-color: #ADD8E6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+    margin: 30px 0;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+  
+  .fotoperfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit:scale-down;
+    margin-top: 40px;
+  }
+  
+  .intro {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .rectangulo {
+    width: 1250px; 
+    height: 10px; 
+    border-radius: 80%;
+    background: #282e6f;
+}
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .projecto {
+    max-width: 400px;
+    margin:  10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  .project h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .project p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
